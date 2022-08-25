@@ -28,3 +28,15 @@ void printPrior::Show() {
 void printPrior::Clear() {
 	this->length = 0;
 }
+// проверка на пустую очередь
+bool printPrior::isEmpty() const {
+	return this->length == 0;
+}
+// проверка на полную очередь
+bool printPrior::isFull() const {
+	return this->length == this->maxQ;
+}
+// метод получения значения длины очереди
+int printPrior::GetCount() const {
+	return this->length;
+}
