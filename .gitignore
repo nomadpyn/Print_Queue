@@ -38,3 +38,9 @@
 *.db-wal
 *.opendb
 *.ipch
+*.recipe
+*.ilk
+*.tlog
+*.log
+*.idb
+*.pdb
