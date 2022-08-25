@@ -32,3 +32,9 @@
 *.app
 .vs/print_queue/v17/.suo
 *.db
+*.vsidx
+*.lock
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
