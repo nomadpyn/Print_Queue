@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+.vs/print_queue/v17/.suo
+*.db
