@@ -21,7 +21,7 @@ void printPrior::Show() {
 	else {
 		cout << "Wait start:\n";
 		for (int i = 0; i < this->length; i++)
-			cout << "User: " << this->Wait[i] << ".Priority " << this->Pri[i] << endl;
+			cout << "User: " << this->Wait[i] << " - Priority " << this->Pri[i] << endl;
 		cout << "Wait end\n";
 	}
 }// метод "очистки" очереди
@@ -73,6 +73,7 @@ string printPrior::Extract() {
 		}
 		return temp;
 	}
-	else
+	else 
 		return temp;
+		
 }
